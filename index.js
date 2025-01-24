@@ -1,4 +1,5 @@
-//dotenv(),deployment, testing apis/documention, and sending mails.
+//dotenv(),deployment,sending mails, testing apis/documention
+// postman, insomnia, thunderclient
 
 const express = require("express");
 const app = express();
@@ -29,3 +30,6 @@ app.listen(PORT,(err)=>{
         console.log("Server has started");
     }
 })
+
+//nodemon - devDependency - 
+// development version , production version(build version)
